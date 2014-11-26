@@ -3,6 +3,25 @@ Kuali.co Style Guide
 
 This repository lets us create css styles (and possibly components) that give our components nice defaults. 
 
+Getting Started
+---------------
+
+Install as an NPM dependency
+
+    npm install git@github.com:KualiCo/style-guide.git
+
+Copy the files into your project using a postinstall script. Add to your package.json:
+
+    "scripts": {
+      "postinstall": "mkdir -p public/css/npm; cp node_modules/style-guide/css/*.css public/css/npm/"
+    },
+
+Then you can `.gitignore` the `public/css/npm` folder, and import the style
+
+    <link rel="stylesheet" href="css/npm/styleguide.css">
+
+Alternatively, you can symlink in the file instead.
+
 What belongs here
 -----------------
 
