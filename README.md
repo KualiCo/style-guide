@@ -8,7 +8,7 @@ Getting Started
 
 Install as an NPM dependency
 
-    npm install git@github.com:KualiCo/style-guide.git
+    npm install --save git+ssh://git@github.com:KualiCo/style-guide.git
 
 Copy the files into your project using a postinstall script. Add to your package.json:
 

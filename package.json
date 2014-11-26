@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepublish": "node_modules/.bin/stylus css/styleguide.styl"
+    "prepublish": "node_modules/.bin/stylus css/styleguide.styl",
+    "build": "node_modules/.bin/stylus css/styleguide.styl"
   },
   "repository": {
     "type": "git",
