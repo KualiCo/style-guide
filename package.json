@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KualiCo/style-guide/issues"
   },
-  "homepage": "https://github.com/KualiCo/style-guide"
+  "homepage": "https://github.com/KualiCo/style-guide",
+  "devDependencies": {
+    "stylus": "0.49.3"
+  }
 }
