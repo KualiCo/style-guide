@@ -12,21 +12,22 @@ View Examples
 Getting Started
 ---------------
 
+There are multiple ways to import this into your project, but this is what I recommend:
+
 Install as an NPM dependency
 
     npm install --save git+ssh://git@github.com:KualiCo/style-guide.git
 
-Copy the files into your project using a postinstall script. Add to your package.json:
+Create a symlink into your public folder. If your public folder is under ./public
 
-    "scripts": {
-      "postinstall": "mkdir -p public/css/npm; cp node_modules/style-guide/css/*.css public/css/npm/"
-    },
+    cd public
+    ln -s ../node_modules/style-guide
 
-Then you can `.gitignore` the `public/css/npm` folder, and import the style
+Then you can import the style, images, or anything else
 
-    <link rel="stylesheet" href="css/npm/styleguide.css">
-
-Alternatively, you can symlink in the file instead.
+    <link rel="stylesheet" href="style-guide/css/styleguide.css">
+    
+    <img src="style-guide/img/logo.png">
 
 What belongs here
 -----------------
