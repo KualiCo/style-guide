@@ -3,6 +3,11 @@ Kuali.co Style Guide
 
 This repository lets us create css styles (and possibly components) that give our components nice defaults. 
 
+View Examples
+-------------
+
+[Click here to view the examples](http://kualico.github.io/style-guide/)
+
 Getting Started
 ---------------
 

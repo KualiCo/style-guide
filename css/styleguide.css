@@ -1,4 +1,4 @@
-.kc-hover-list tbody tr:hover {
+.kc-hover-row:hover {
   background-color: #c2c2c2 !important;
   cursor: pointer;
 }
