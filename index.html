@@ -4,25 +4,55 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KualiCO Style Guide</title>
-    <link rel="stylesheet" href="example/css/foundation.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/styleguide.css" />
   </head>
   <body>
-  <h1>Kuali.co style guide</h1>
-  <p><a href="http://github.com/kualico/style-guide">View Source on Github</a></p>
-  <h4>Hover Row</h4>
-  <p>Put `.kc-hover-row` on a table row to add a hover effect when you mouse over</p>
-  <table>
-    <thead>
-      <tr><th>Some Header</th></tr>
-    </thead>
-    <tbody>
-      <tr class="kc-hover-row"><td>Some Content: One</td></tr>
-      <tr class="kc-hover-row"><td>Some Content: Two</td></tr>
-      <tr class="kc-hover-row"><td>Some Content: Three</td></tr>
-      <tr class="kc-hover-row"><td>Some Content: Four</td></tr>
-      <tr class="kc-hover-row"><td>Some Content: Five</td></tr>
-    </tbody>
-  </table>
+
+  <nav class="top-bar" role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a><img src="img/logo.png" class="kc-nav-logo"/> Kuali.co Style Guide</a></h1>
+      </li>
+    </ul>
+
+    <section class="top-bar-section">
+      <ul class="right">
+        <li><a href="http://github.com/kualico/style-guide">View on Github</a></li>
+      </ul>
+    </section>
+  </nav>
+
+  <div class="row">
+    <div class="small-12 column">
+
+      <h4>Navigation Header</h4>
+      <p>(Demo = This Header) <ul>
+        <li>Use foundations normal header</li>
+        <li><code>.kc-nav-logo</code> on the image</li>
+      </ul></p>
+
+      <h4>Main Content</h4>
+      <p>(Demo = This page) Place everything within two divs: <code>.row .small-12.column</code></p>
+
+      <h4>Hover Row</h4>
+      <p>Put <code>.kc-hover-row</code> on a table row to add a hover effect when you mouse over</p>
+      <table>
+        <thead>
+          <tr><th>Some Header</th></tr>
+        </thead>
+        <tbody>
+          <tr class="kc-hover-row"><td>Some Content: One</td></tr>
+          <tr class="kc-hover-row"><td>Some Content: Two</td></tr>
+          <tr class="kc-hover-row"><td>Some Content: Three</td></tr>
+          <tr class="kc-hover-row"><td>Some Content: Four</td></tr>
+          <tr class="kc-hover-row"><td>Some Content: Five</td></tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
   </body>
 </html>
